@@ -1,12 +1,12 @@
-import OnlineUser from "./OnlineUser";
+import OnlineUsersCount from "./OnlineUsersCount";
+import styles from './online-block.module.css'
+import OnlineUsers from "./OnlineUsers";
 
 export default function OnlineBlock() {
     return (
-        <div>
-            <h1>
-                Online Block
-                <OnlineUser />
-            </h1>
+        <div className={styles.online_block}>
+            <OnlineUsersCount />
+            <OnlineUsers />
         </div>
     )
 }
