@@ -6,7 +6,6 @@ export default function OnlineBlock() {
     return (
         <div className={styles.online_block}>
             <OnlineUsersCount />
-            <OnlineUsers />
         </div>
     )
 }
