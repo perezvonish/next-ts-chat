@@ -6,10 +6,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
       <Row className={styles.main_row}>
-          <Col span={8}>
-              <OnlineBlock />
-          </Col>
-          <Col span={16}>
+          <Col span={24}>
               <NewsBlock />
           </Col>
       </Row>
