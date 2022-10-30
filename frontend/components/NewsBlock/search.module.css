@@ -1,0 +1,17 @@
+.search_col {
+    padding: 1rem;
+}
+
+.news_block {
+    display: flex;
+    flex-direction: column;
+
+
+    margin: auto;
+    border-left: 1rem #E6BD8A solid;
+    border-bottom: 1rem #E6BD8A solid;
+}
+
+.search_row {
+    justify-content: center;
+}
