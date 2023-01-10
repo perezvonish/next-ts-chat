@@ -1,0 +1,22 @@
+.online_block {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+
+    padding: 2rem;
+}
+
+.users {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 1rem;
+}
+
+.user_card {
+    width: 20rem;
+    margin: 2rem;
+}

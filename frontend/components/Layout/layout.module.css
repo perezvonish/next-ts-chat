@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1rem #E6BD8A solid;
+
+    padding: 2rem;
+}
+
+.navigation_button {
+    width: 10rem;
+    height: 4rem;
+}
+
+.layout {
+    border: 1rem #E6BD8A solid;
+    background-color: #FBF2C9;
+}
+
+.layout_footer {
+    border: 1rem #E6BD8A solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}

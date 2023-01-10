@@ -1,0 +1,15 @@
+.search_col {
+    padding: 1rem;
+}
+
+.news_block {
+    display: flex;
+    flex-direction: column;
+
+
+    margin: auto;
+}
+
+.search_row {
+    justify-content: center;
+}
